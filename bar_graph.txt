@@ -1,0 +1,153 @@
+Episode= 0 , at iteration= 1 , with total reward= -100
+Episode= 0 , at iteration= 1 , with total reward= 0
+Episode= 0 , at iteration= 2 , with total reward= -100
+Episode= 0 , at iteration= 2 , with total reward= -200
+Episode= 0 , at iteration= 3 , with total reward= -100
+Episode= 0 , at iteration= 3 , with total reward= -200
+Episode= 0 , at iteration= 4 , with total reward= -100
+Episode= 0 , at iteration= 4 , with total reward= -200
+Episode= 0 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 1 , at iteration= 1 , with total reward= -100
+Episode= 1 , at iteration= 1 , with total reward= 0
+Episode= 1 , at iteration= 2 , with total reward= -100
+Episode= 1 , at iteration= 2 , with total reward= -200
+Episode= 1 , at iteration= 3 , with total reward= -100
+Episode= 1 , at iteration= 3 , with total reward= -200
+Episode= 1 , at iteration= 4 , with total reward= -100
+Episode= 1 , at iteration= 4 , with total reward= -200
+Episode= 1 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 2 , at iteration= 1 , with total reward= -100
+Episode= 2 , at iteration= 1 , with total reward= 0
+Episode= 2 , at iteration= 2 , with total reward= -100
+Episode= 2 , at iteration= 2 , with total reward= -200
+Episode= 2 , at iteration= 3 , with total reward= -100
+Episode= 2 , at iteration= 3 , with total reward= -200
+Episode= 2 , at iteration= 4 , with total reward= -100
+Episode= 2 , at iteration= 4 , with total reward= -200
+Episode= 2 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 3 , at iteration= 1 , with total reward= -100
+Episode= 3 , at iteration= 1 , with total reward= 0
+Episode= 3 , at iteration= 2 , with total reward= -100
+Episode= 3 , at iteration= 2 , with total reward= -200
+Episode= 3 , at iteration= 3 , with total reward= -100
+Episode= 3 , at iteration= 3 , with total reward= -200
+Episode= 3 , at iteration= 4 , with total reward= -100
+Episode= 3 , at iteration= 4 , with total reward= -200
+Episode= 3 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 4 , at iteration= 1 , with total reward= -100
+Episode= 4 , at iteration= 1 , with total reward= 0
+Episode= 4 , at iteration= 2 , with total reward= -100
+Episode= 4 , at iteration= 2 , with total reward= -200
+Episode= 4 , at iteration= 3 , with total reward= -100
+Episode= 4 , at iteration= 3 , with total reward= -200
+Episode= 4 , at iteration= 4 , with total reward= -100
+Episode= 4 , at iteration= 4 , with total reward= -200
+Episode= 4 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 5 , at iteration= 1 , with total reward= -100
+Episode= 5 , at iteration= 1 , with total reward= 0
+Episode= 5 , at iteration= 2 , with total reward= -100
+Episode= 5 , at iteration= 2 , with total reward= -200
+Episode= 5 , at iteration= 3 , with total reward= -100
+Episode= 5 , at iteration= 3 , with total reward= -200
+Episode= 5 , at iteration= 4 , with total reward= -100
+Episode= 5 , at iteration= 4 , with total reward= -200
+Episode= 5 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 6 , at iteration= 1 , with total reward= -100
+Episode= 6 , at iteration= 1 , with total reward= 0
+Episode= 6 , at iteration= 2 , with total reward= -100
+Episode= 6 , at iteration= 2 , with total reward= -200
+Episode= 6 , at iteration= 3 , with total reward= -100
+Episode= 6 , at iteration= 3 , with total reward= -200
+Episode= 6 , at iteration= 4 , with total reward= -100
+Episode= 6 , at iteration= 4 , with total reward= -200
+Episode= 6 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 7 , at iteration= 1 , with total reward= -100
+Episode= 7 , at iteration= 1 , with total reward= 0
+Episode= 7 , at iteration= 2 , with total reward= -100
+Episode= 7 , at iteration= 2 , with total reward= -200
+Episode= 7 , at iteration= 3 , with total reward= -100
+Episode= 7 , at iteration= 3 , with total reward= -200
+Episode= 7 , at iteration= 4 , with total reward= -100
+Episode= 7 , at iteration= 4 , with total reward= -200
+Episode= 7 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 8 , at iteration= 1 , with total reward= -100
+Episode= 8 , at iteration= 1 , with total reward= 0
+Episode= 8 , at iteration= 2 , with total reward= -100
+Episode= 8 , at iteration= 2 , with total reward= -200
+Episode= 8 , at iteration= 3 , with total reward= -100
+Episode= 8 , at iteration= 3 , with total reward= -200
+Episode= 8 , at iteration= 4 , with total reward= -100
+Episode= 8 , at iteration= 4 , with total reward= -200
+Episode= 8 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 9 , at iteration= 1 , with total reward= -100
+Episode= 9 , at iteration= 1 , with total reward= 0
+Episode= 9 , at iteration= 2 , with total reward= -100
+Episode= 9 , at iteration= 2 , with total reward= -200
+Episode= 9 , at iteration= 3 , with total reward= -100
+Episode= 9 , at iteration= 3 , with total reward= -200
+Episode= 9 , at iteration= 4 , with total reward= -100
+Episode= 9 , at iteration= 4 , with total reward= -200
+Episode= 9 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 10 , at iteration= 1 , with total reward= -100
+Episode= 10 , at iteration= 1 , with total reward= 0
+Episode= 10 , at iteration= 2 , with total reward= -100
+Episode= 10 , at iteration= 2 , with total reward= -200
+Episode= 10 , at iteration= 3 , with total reward= -100
+Episode= 10 , at iteration= 3 , with total reward= -200
+Episode= 10 , at iteration= 4 , with total reward= -100
+Episode= 10 , at iteration= 4 , with total reward= -200
+Episode= 10 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 11 , at iteration= 1 , with total reward= -100
+Episode= 11 , at iteration= 1 , with total reward= 0
+Episode= 11 , at iteration= 2 , with total reward= -100
+Episode= 11 , at iteration= 2 , with total reward= -200
+Episode= 11 , at iteration= 3 , with total reward= -100
+Episode= 11 , at iteration= 3 , with total reward= -200
+Episode= 11 , at iteration= 4 , with total reward= -100
+Episode= 11 , at iteration= 4 , with total reward= -200
+Episode= 11 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 12 , at iteration= 1 , with total reward= -100
+Episode= 12 , at iteration= 1 , with total reward= 0
+Episode= 12 , at iteration= 2 , with total reward= -100
+Episode= 12 , at iteration= 2 , with total reward= -200
+Episode= 12 , at iteration= 3 , with total reward= -100
+Episode= 12 , at iteration= 3 , with total reward= -200
+Episode= 12 , at iteration= 4 , with total reward= -100
+Episode= 12 , at iteration= 4 , with total reward= -200
+Episode= 12 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 13 , at iteration= 1 , with total reward= -100
+Episode= 13 , at iteration= 1 , with total reward= 0
+Episode= 13 , at iteration= 2 , with total reward= -100
+Episode= 13 , at iteration= 2 , with total reward= -200
+Episode= 13 , at iteration= 3 , with total reward= -100
+Episode= 13 , at iteration= 3 , with total reward= -200
+Episode= 13 , at iteration= 4 , with total reward= -100
+Episode= 13 , at iteration= 4 , with total reward= -200
+Episode= 13 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 14 , at iteration= 1 , with total reward= -100
+Episode= 14 , at iteration= 1 , with total reward= 0
+Episode= 14 , at iteration= 2 , with total reward= -100
+Episode= 14 , at iteration= 2 , with total reward= -200
+Episode= 14 , at iteration= 3 , with total reward= -100
+Episode= 14 , at iteration= 3 , with total reward= -200
+Episode= 14 , at iteration= 4 , with total reward= -100
+Episode= 14 , at iteration= 4 , with total reward= -200
+Episode= 14 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 15 , at iteration= 1 , with total reward= -100
+Episode= 15 , at iteration= 1 , with total reward= 0
+Episode= 15 , at iteration= 2 , with total reward= -100
+Episode= 15 , at iteration= 2 , with total reward= -200
+Episode= 15 , at iteration= 3 , with total reward= -100
+Episode= 15 , at iteration= 3 , with total reward= -200
+Episode= 15 , at iteration= 4 , with total reward= -100
+Episode= 15 , at iteration= 4 , with total reward= -200
+Episode= 15 , ends in a number of iterations= 4 , with total reward= -200
+Episode= 16 , at iteration= 1 , with total reward= -100
+Episode= 16 , at iteration= 1 , with total reward= 0
+Episode= 16 , at iteration= 2 , with total reward= -100
+Episode= 16 , at iteration= 2 , with total reward= -200
+Episode= 16 , at iteration= 3 , with total reward= -100
+Episode= 16 , at iteration= 3 , with total reward= -200
+Episode= 16 , at iteration= 4 , with total reward= -100
+Episode= 16 , at iteration= 4 , with total reward= -200
+Episode= 16 , ends in a number of iterations= 4 , with total reward= -200
