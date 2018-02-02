@@ -1,0 +1,106 @@
+<html>
+    
+
+
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/js/highcharts.js"></script>
+<script src="https://code.highcharts.com/js/modules/exporting.js"></script>
+<script<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+	
+<head>
+<style>
+@import 'https://code.highcharts.com/css/highcharts.css';
+
+#container {
+	height: 400px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.highcharts-title {
+    fill: #434348;
+    font-size: 3em;
+}
+.highcharts-axis-labels {
+    font-size: 1.5em;
+}
+.highcharts-axis{
+	font-size: 1.5em;
+
+}
+</style>
+    
+</head>
+    
+
+
+<div id="container"></div>
+
+    <body>
+    
+        <script>
+        
+        
+        
+Highcharts.chart('container', {
+    title: {
+        text: 'Iteration - Reward Graph'
+    },
+	xAxis: {
+        title: {
+            text: 'Number of Iterations'
+        }
+    },
+    yAxis: {
+        title: {
+            text: 'Number of Rewards'
+        }
+    },
+    legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle'
+		
+    },
+    plotOptions: {
+        series: {
+            label: {
+                connectorAllowed: false
+            },
+            pointStart: 0
+        }
+    },
+    series: [{ 
+        name: 'Strategy A',
+        data: [0, -200, -100, 100, 400]
+    }, {
+        name: 'Strategy B',
+        data: [0, -400, -500, -300, -100]
+    }, {
+        name: 'Strategy C',
+        data: [0, -300, -200, 100, 0]
+    }],
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 500
+            },
+            chartOptions: {
+                legend: {
+                    layout: 'horizontal',
+                    align: 'center',
+                    verticalAlign: 'bottom'
+                }
+            }
+        }]
+    }
+});
+        </script>
+        
+        
+    </body>
+    
+    
+
+</html>

@@ -1,0 +1,86 @@
+<html>
+<script src="https://code.highcharts.com/js/highcharts.js"></script>
+<script src="https://code.highcharts.com/js/modules/exporting.js"></script>
+<script<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+
+<div id="container"></div>
+
+
+
+
+
+
+<head>
+<style>
+@import 'https://code.highcharts.com/css/highcharts.css';
+
+#container {
+	height: 400px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.highcharts-title {
+    fill: #434348;
+    font-size: 3em;
+}
+.highcharts-axis-labels {
+    font-size: 1.5em;
+}
+.highcharts-axis{
+	font-size: 1.5em;
+
+}
+
+</style>
+</head>
+<body>
+
+<script>
+
+
+Highcharts.chart('container', {
+    chart: {
+        type: 'column'
+    },
+	title: {
+        text: 'The Avergage Reward'
+    },
+
+    xAxis: {
+        categories: ['Strategy A', 'Strategy B', 'Strategy C']
+    },
+    yAxis: {
+        min: -400,
+        title: {
+            text: 'Number of Reward'
+			
+        }
+
+    },
+    tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y:.1f}',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+
+    series: [{
+		name: 'Average Reward',
+        data: [-100, -200, -300],
+        type: 'column'
+    }]
+});
+</script>
+</body>
+
+</html>
