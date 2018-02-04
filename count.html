@@ -1,0 +1,201 @@
+<html>
+
+<script src="https://code.highcharts.com/js/highcharts.js"></script>
+<script src="https://code.highcharts.com/js/modules/exporting.js"></script>
+<script<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<head>
+<style>
+@import 'https://code.highcharts.com/css/highcharts.css';
+#container {
+	height: 400px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.highcharts-title {
+    fill: #434348;
+    font-size: 3em;
+}
+.highcharts-axis-labels {
+    font-size: 1em;
+}
+.highcharts-axis{
+	font-size: 1.3em;
+}
+</style>
+</head>
+
+
+<body>
+<script>
+
+
+Highcharts.chart('container', {
+    chart: {
+        type: 'area'
+    },
+    title: {
+        text: 'Tweet Count'
+    },
+    xAxis: {
+    type: 'datetime',
+    dateTimeLabelFormats: {
+            second: '%H:%M:%S',
+            minute: '%H:%M',
+            hour: '%H:%M',
+            day: '%e. %b',
+            week: '%e. %b',
+            month: '%b \'%y',
+            year: '%Y'
+    },
+     tickInterval: 24 * 3600 * 800 
+},
+    yAxis: {
+        title: {
+            text: 'Tweet Count'
+        }
+    },
+    legend: {
+        layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            floating: true,
+            backgroundColor: '#FFFFFF'
+    },
+    tooltip: {
+        pointFormat: '{series.name} produced <b>{point.y:,.0f}</b><br/>warheads in {point.x}'
+    },
+    plotOptions: {
+        area: {
+            pointStart: Date.UTC(2017, 07, 17),
+            marker: {
+                enabled: false,
+                symbol: 'circle',
+                radius: 2,
+                states: {
+                    hover: {
+                        enabled: true
+                    }
+                }
+            }
+        }
+    },
+    series: [{
+            name: 'Tweet',
+            data: [
+  1272,
+  1420,
+  1226,
+  1239,
+  1275,
+  1496,
+  2246,
+  8820,
+  25059,
+  15372,
+  20524,
+  20203,
+  20324,
+  17212,
+  13641,
+  9932,
+  7388,
+  5348,
+  4725,
+  5561,
+  5246,
+  4400,
+  4393,
+  3049,
+  2611,
+  2400,
+  2767,
+  2540,
+  2217,
+  1796,
+  1611,
+  1496,
+  1813,
+  1895,
+  1922,
+  1674,
+  1839,
+  1631,
+  1766,
+  1491,
+  1623,
+  1559,
+  1505,
+  1498,
+  1362
+],
+            pointInterval: 24 * 3600 * 1000 
+
+        },
+		{
+            name: 'Needs',
+            data: [
+  
+  41,
+  24,
+  24,
+  37,
+  30,
+  61,
+  68,
+  444,
+  1326,
+  1104,
+  3556,
+  5203,
+  5278,
+  4876,
+  4294,
+  2990,
+  1725,
+  1133,
+  1085,
+  1080,
+  993,
+  777,
+  753,
+  428,
+  335,
+  310,
+  458,
+  332,
+  298,
+  222,
+  133,
+  120,
+  174,
+  176,
+  201,
+  163,
+  245,
+  122,
+  101,
+  151,
+  159,
+  161,
+  136,
+  112,
+  111
+
+],
+            pointInterval: 24 * 3600 * 1000 
+
+        }
+        
+]
+});
+
+</script>
+</body>
+
+</html>
